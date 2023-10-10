@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -print 2>/dev/null | grep -c \/
+find . -type d |tail-n +2| wc -1
